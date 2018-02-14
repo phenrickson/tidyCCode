@@ -8,7 +8,7 @@ For example, Germany is sometimes coded as 255 and sometimes as 260 during the y
 I wrote a function which identifies and cleans the problematic country-years for ccodes.  'tidyCYear' allows a user to input ccodes and years and return a character vector of 'CCC_YYYY' format. This variable can then be used as the variable on which to merge datasets.
 
 
-There are four functions in this repository. All must be downloaded in order 
+There are four functions in this repository. All must be downloaded and sourced in order for the main function, tidyCYear, to run correctly.
 
 # main function (requires background functions to be sourced)
 tidyCYear is the penultimate function and uses a country's ccode and year to produce a character 'XXX_YYYY' vector
