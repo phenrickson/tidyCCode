@@ -11,7 +11,7 @@ I wrote a function which identifies and cleans the problematic country-years for
 There are four functions in this repository. All must be downloaded and sourced in order for the main function, tidyCYear, to run correctly.
 
 # main function (requires background functions to be sourced)
-tidyCYear is the penultimate function and uses a country's ccode and year to produce a character 'XXX_YYYY' vector
+tidyCYear is the main function and uses a country's ccode and year to produce a cleaned character 'XXX_YYYY' vector
  
  # background functions
 cleanCCode converts an existing country code to a consistent vector format 'XXX' (eg, 2 -> 002, 20 -> 020)
